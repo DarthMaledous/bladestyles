@@ -13,3 +13,10 @@ SimpleClash<Lockup<Blast<ColorCycle<Black,0,1,Pulsing<Blue,Red,1800>,100,3000,25
 //Doesn't really need the InOutHelper wrapper, but here's how the blade above would look with that wrapper.
 InOutHelper<SimpleClash<Lockup<Blast<ColorCycle<Black,1,0,AudioFlicker<Red,Orange>,100,2000,3000>,White>,AudioFlicker<ColorCycle<Black,1,0,AudioFlicker<Red,Orange>,100,2000,3000>,White>>,White,40>,300,2000>
 
+
+//If Kylo Ren was a Jedi Unstable blade
+Var1 --> InOutHelper<SimpleClash<Lockup<Blast<Gradient<RandomFlicker<Yellow,SpringGreen>,BrownNoiseFlicker<Blue,Cyan,500>>,Strobe<Black,Blue,15,1>>,AudioFlicker<Gradient<HumpFlicker<Magenta,SpringGreen,40>,Strobe<Orange,Rgb<0,10,100>,15,1>>,White>>,Gradient<Cyan,Yellow>,40>,200,800,Black>
+Var2 --> InOutHelper<SimpleClash<Lockup<Blast<Gradient<RandomFlicker<DeepSkyBlue,Cyan>,BrownNoiseFlicker<Yellow,SpringGreen,500>>,Strobe<Black,Blue,15,1>>,AudioFlicker<Gradient<HumpFlicker<Magenta,SpringGreen,40>,Strobe<Orange,Rgb<0,10,100>,15,1>>,White>>,Gradient<Strobe<Magenta,Orange,15,10>,Strobe<DodgerBlue,Cyan,15,10>>,120>,200,800,Black>
+
+//Another weird unstable blade
+InOutHelper<SimpleClash<Lockup<Blast<Gradient<RandomFlicker<DarkOrange,Red>,BrownNoiseFlicker<Yellow,OrangeRed,500>>,Strobe<Black,Blue,15,1>>,AudioFlicker<Gradient<HumpFlicker<Yellow,Magenta,40>,Strobe<Orange,Rgb<0,10,100>,15,1>>,White>>,Gradient<Strobe<Magenta,Orange,15,10>,Strobe<DodgerBlue,Cyan,15,10>>,120>,200,800,Black>
