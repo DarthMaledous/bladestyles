@@ -1,0 +1,15 @@
+################################ TESTING STUFF####################################
+
+InOutHelper<SimpleClash<Lockup<Blast<Pulsing<Red,Rgb<50,0,0>,5000>,White>,AudioFlicker<Pulsing<Red,Rgb<50,0,0>,5000>,Red>>,Green,40>,300,800,Black>
+
+InOutHelper<SimpleClash<Lockup<Blast<BrownNoiseFlicker<OrangeRed,Rgb<205,120,0>,500>,RgbCycle>,AudioFlicker<Pulsing<Red,Rgb<50,0,0>,5000>,Red>>,Green,40>,300,800,Black>
+
+InOutHelper<SimpleClash<Lockup<Blast<BrownNoiseFlicker<DarkOrange,Red,500>,RgbCycle>,AudioFlicker<StyleFire<Chartreuse,Cyan,0,2,FireConfig<0,2000,5>,FireConfig<3000,0,0>,FireConfig<0,5000,10>,FireConfig<0,0,5>>,Red>>,Green,40>,300,800,Black>
+
+
+### These two are almost the same ##
+SimpleClash<Lockup<Blast<ColorCycle<Black,0,1,Pulsing<Blue,Red,1800>,100,3000,2500>,White>,AudioFlicker<ColorCycle<Blue,0,1,Cyan,100,3000,5000>,White>>,White,40>,Black>
+
+//Doesn't really need the InOutHelper wrapper, but here's how the blade above would look with that wrapper.
+InOutHelper<SimpleClash<Lockup<Blast<ColorCycle<Black,1,0,AudioFlicker<Red,Orange>,100,2000,3000>,White>,AudioFlicker<ColorCycle<Black,1,0,AudioFlicker<Red,Orange>,100,2000,3000>,White>>,White,40>,300,2000>
+
