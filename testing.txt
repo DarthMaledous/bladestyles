@@ -20,3 +20,9 @@ Var2 --> InOutHelper<SimpleClash<Lockup<Blast<Gradient<RandomFlicker<DeepSkyBlue
 
 //Another weird unstable blade
 InOutHelper<SimpleClash<Lockup<Blast<Gradient<RandomFlicker<DarkOrange,Red>,BrownNoiseFlicker<Yellow,OrangeRed,500>>,Strobe<Black,Blue,15,1>>,AudioFlicker<Gradient<HumpFlicker<Yellow,Magenta,40>,Strobe<Orange,Rgb<0,10,100>,15,1>>,White>>,Gradient<Strobe<Magenta,Orange,15,10>,Strobe<DodgerBlue,Cyan,15,10>>,120>,200,800,Black>
+
+
+
+//Weird, unstable and purple
+InOutHelper<SimpleClash<Lockup<Blast<Pulsing<Rgb<160,80,255>,BrownNoiseFlicker<Red,DeepSkyBlue,250>,1450>,Strobe<Black,White,15,1>>,AudioFlicker<Blue,White>>,OnSpark<StyleFire<Yellow,Cyan,0,2,FireConfig<0,2000,5>,FireConfig<3000,0,0>,FireConfig<0,5000,10>,FireConfig<0,0,5>>,StyleFire<Blue,Cyan,0,2,FireConfig<0,2000,5>,FireConfig<3000,0,0>,FireConfig<0,5000,10>,FireConfig<0,0,5>>,200>,40>,300,800,Black>
+
