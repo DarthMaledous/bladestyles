@@ -1,0 +1,80 @@
+## Transformer Blades##
+//Red
+InOutHelper<SimpleClash<Lockup<Blast<ColorCycle<Orange,0,1,Red,100,1000,5500>,White>,BrownNoiseFlicker<OrangeRed,Yellow,100>>,White,40>,300,800,Black>
+
+//Green
+InOutHelper<SimpleClash<Lockup<Blast<ColorCycle<Orange,0,1,Green,100,1000,5500>,SteelBlue>,BrownNoiseFlicker<Yellow,OrangeRed,500>>,LightCyan,40>,300,800,Black>
+
+//Cyan
+InOutHelper<SimpleClash<Lockup<Blast<ColorCycle<Aquamarine,0,1,Cyan,100,1000,5500>,SteelBlue>,BrownNoiseFlicker<SteelBlue,GhostWhite,250>>,Yellow,40>,300,800,Black>
+
+//Blue
+
+InOutHelper<SimpleClash<Lockup<Blast<ColorCycle<SteelBlue,0,1,DeepSkyBlue,100,1000,5500>,Magenta>,BrownNoiseFlicker<Blue,GhostWhite,250>>,Yellow,40>,300,800,Black>
+
+InOutHelper<SimpleClash<BrownNoiseFlicker<Yellow, OrangeRed, 500>>,RED, WHITE, 40>300,800>
+
+
+##Kylo type blades
+
+//DarkOrange_Red
+InOutHelper<SimpleClash<Lockup<Blast<BrownNoiseFlicker<DarkOrange,Red,500>,RgbCycle>,AudioFlicker<StyleFire<Chartreuse,Cyan,0,2,FireConfig<0,2000,5>,FireConfig<3000,0,0>,FireConfig<0,5000,10>,FireConfig<0,0,5>>,Red>>,Green,40>,300,800,Black>
+
+//Red_Orange_Unstable
+InOutHelper<SimpleClash<Lockup<Blast<RandomFlicker<Red,Orange>,StyleFire<Blue,Cyan,0,2,FireConfig<0,2000,5>,FireConfig<3000,0,0>,FireConfig<0,5000,10>,FireConfig<0,0,5>>>,AudioFlicker<OnSpark<GreenYellow,White,10>,White>>,Strobe<SpringGreen,Black,15,1>,100>,180,800,Black>
+
+//SpringGreen_Blue_Unstable
+InOutHelper<SimpleClash<Lockup<Blast<RandomFlicker<SpringGreen,Blue>,StyleFire<Yellow,Cyan,0,2,FireConfig<0,2000,5>,FireConfig<3000,0,0>,FireConfig<0,5000,10>,FireConfig<0,0,5>>>,BrownNoiseFlicker<Yellow,Cyan,1000>>,Strobe<SpringGreen,Black,15,1>,100>,180,800,Black>
+
+//Dmitry Shtok's Kylo Unstable
+InOutHelper<SimpleClash<Lockup<Blast<OnSpark<BrownNoiseFlicker<Strobe<Black,Rgb<255,100,0>,50,1>,Strobe<Red,Black,50,1>,50>,White,100>,White>,AudioFlicker<OnSpark<BrownNoiseFlicker<Strobe<Black,Yellow,50,1>,Strobe<Red,Black,50,1>,50>,White,200>,White>>,White,40>,100,200,Black>
+
+//OrangeRed_Yellow
+InOutHelper<SimpleClash<Lockup<Blast<BrownNoiseFlicker<OrangeRed,Yellow,100>,SpringGreen>,AudioFlicker<GreenYellow,White>>,Magenta,40>,185,800,Black>
+
+//Jedi_Green
+InOutHelper<SimpleClash<Lockup<Blast<BrownNoiseFlicker<Green,LightYellow,350>,Red>,HumpFlicker<Green,Magenta,75>>,Cyan,80>,185,800,Black>
+
+
+//Sith Pulse
+InOutHelper<SimpleClash<Lockup<Blast<Pulsing<OrangeRed,Orange,3500>,White>,HumpFlicker<Green,Red,50>>,Rgb<195,100,255>,65>,195,800,Black>
+
+//Jedi Pulse
+InOutHelper<SimpleClash<Lockup<Blast<Pulsing<SpringGreen,GreenYellow,3500>,Orange>,HumpFlicker<Cyan,Ivory,50>>,Rgb<195,100,255>,65>,195,800,Black>
+
+//Mace Pulse
+InOutHelper<SimpleClash<Lockup<Blast<Pulsing<Rgb<150,0,255>,Rgb<50,0,230>,3500>,DarkOrange>,HumpFlicker<Rgb<185,95,0>,Rgb<255,100,150>,55>>,Rgb<195,100,255>,65>,195,800,Black>
+
+
+//ColorCycle &  PulseFlicker
+
+//Red_Orange_Cycle_Pulse_Flicker
+SimpleClash<Lockup<Blast<ColorCycle<Black,1,0,AudioFlicker<Red,Orange>,100,2000,3000>,White>,AudioFlicker<ColorCycle<Black,1,0,AudioFlicker<Red,Orange>,100,2000,3000>,White>>,White,40>
+
+// OrangeAmber_Cycle_Pulse_Flicker 
+InOutHelper<SimpleClash<Lockup<Blast<OnSpark<ColorCycle<Yellow,0,1,AudioFlicker<DarkOrange,Rgb<128,0,0>>,100,3000,800>,White,200>,Strobe<Green,Black,15,1>>,AudioFlicker<OnSpark<ColorCycle<Yellow,0,1,AudioFlicker<DarkOrange,Rgb<128,0,0>>,100,3000,800>,White,200>,White>>,BrownNoiseFlicker<Green,Magenta,500>,120>,300,800,Black>
+
+//Jedi_Green_Unstable_Color_Cycle
+SimpleClash<Lockup<Blast<ColorCycle<Black,0,1,BrownNoiseFlicker<Yellow,Cyan,1500>,100,3200,2500>,RandomFlicker<Cyan,Blue>>,HumpFlicker<Black,Cyan,60>>,Strobe<HoneyDew,Cyan,45,100>,200>
+
+
+
+################################ TESTING STUFF####################################
+
+InOutHelper<SimpleClash<Lockup<Blast<Pulsing<Red,Rgb<50,0,0>,5000>,White>,AudioFlicker<Pulsing<Red,Rgb<50,0,0>,5000>,Red>>,Green,40>,300,800,Black>
+
+InOutHelper<SimpleClash<Lockup<Blast<BrownNoiseFlicker<OrangeRed,Rgb<205,120,0>,500>,RgbCycle>,AudioFlicker<Pulsing<Red,Rgb<50,0,0>,5000>,Red>>,Green,40>,300,800,Black>
+
+InOutHelper<SimpleClash<Lockup<Blast<BrownNoiseFlicker<DarkOrange,Red,500>,RgbCycle>,AudioFlicker<StyleFire<Chartreuse,Cyan,0,2,FireConfig<0,2000,5>,FireConfig<3000,0,0>,FireConfig<0,5000,10>,FireConfig<0,0,5>>,Red>>,Green,40>,300,800,Black>
+
+
+### These two are almost the same ##
+SimpleClash<Lockup<Blast<ColorCycle<Black,0,1,Pulsing<Blue,Red,1800>,100,3000,2500>,White>,AudioFlicker<ColorCycle<Blue,0,1,Cyan,100,3000,5000>,White>>,White,40>,Black>
+
+//Doesn't really need the InOutHelper wrapper, but here's how the blade above would look with that wrapper.
+InOutHelper<SimpleClash<Lockup<Blast<ColorCycle<Black,1,0,AudioFlicker<Red,Orange>,100,2000,3000>,White>,AudioFlicker<ColorCycle<Black,1,0,AudioFlicker<Red,Orange>,100,2000,3000>,White>>,White,40>,300,2000>
+
+
+
+
+
