@@ -57,3 +57,10 @@ InOutHelper<SimpleClash<Lockup<Blast<OnSpark<ColorCycle<Yellow,0,1,AudioFlicker<
 //Jedi_Green_Unstable_Color_Cycle
 SimpleClash<Lockup<Blast<ColorCycle<Black,0,1,BrownNoiseFlicker<Yellow,Cyan,1500>,100,3200,2500>,RandomFlicker<Cyan,Blue>>,HumpFlicker<Black,Cyan,60>>,Strobe<HoneyDew,Cyan,45,100>,200>
 
+## Vader DV6 / Sith Styles
+// Basic Vader Red with Amber/Green FOC & Lockup
+InOutHelper<SimpleClash<Lockup<Blast<OnSpark<Rgb16<65535,0,0>,White,200>,White,200,100,400>,AudioFlicker<OnSpark<Green,White,400>,Red>,AudioFlicker<OnSpark<Green,White,200>,White>>,Rgb16<46419,44565,937>,40>,300,800,Black>
+
+// Red Transformer Flicker
+SimpleClash<Lockup<Blast<ColorCycle<Black,1,0,AudioFlicker<Red,Orange>,100,2000,3000>,White,200,100,400>,AudioFlicker<ColorCycle<Black,1,0,AudioFlicker<Red,Orange>,100,2000,3000>,White>,AudioFlicker<ColorCycle<Black,1,0,AudioFlicker<Red,Orange>,100,2000,3000>,White>>,BrownNoiseFlicker<Green,Red,50>,40>
+
