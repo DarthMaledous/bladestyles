@@ -91,3 +91,5 @@ StylePtr<InOutHelper<LocalizedClash<Lockup<Blast<HumpFlicker<Red,Yellow,100>,Rgb
 // Vader / Sith Red_Green HumpFlicker
 StylePtr<InOutHelper<LocalizedClash<Lockup<Blast<HumpFlicker<Red,Green,150>,Rgb16<21301,1899,65535>,200,100,400>,HumpFlicker<Green,Yellow,50>,AudioFlicker<OrangeRed,White>>,Green,60,75>,200,800,Black>>()
 
+// Vader / Sith RedOrange 2
+StylePtr<InOutHelper<SimpleClash<Lockup<Blast<HumpFlicker<Red,DarkOrange,50>,Magenta,200,100,400>,AudioFlicker<Blue,White>,AudioFlicker<Blue,White>>,Rgb16<26168,65535,0>,40>,180,800,Black>>()
