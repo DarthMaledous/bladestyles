@@ -35,4 +35,9 @@ StylePtr<InOutHelper<SimpleClash<Lockup<Blast<Strobe<BrownNoiseFlicker<SteelBlue
 //IceFire Green Unstable blade v2
 StylePtr<InOutHelper<SimpleClash<Lockup<Blast<Strobe<BrownNoiseFlicker<SteelBlue,SpringGreen,500>,BrownNoiseFlicker<GreenYellow,White,50>,15,15>,Sparkle<White,Magenta,500,1024>,200,200,600>,Cylon<StyleFire<Blue,Cyan,0,2,FireConfig<0,2000,5>,FireConfig<3000,0,0>,FireConfig<0,5000,10>,FireConfig<0,0,5>>,80,200,BrownNoiseFlicker<Magenta,Cyan,50>,98,300,1>,AudioFlicker<Blue,SpringGreen>>,Strobe<Blue,White,15,10>,100>,200,800,Black>>()
 
+// Revan Purple
+StylePtr<InOutHelper<SimpleClash<Lockup<Blast<HumpFlicker<Rgb16<14634,148,29351>,Magenta,50>,Green,200,100,400>,AudioFlicker<OrangeRed,White>,AudioFlicker<Blue,White>>,Cyan,40>,180,800,Black>>(),
+StylePtr<InOutHelper<SimpleClash<Lockup<Blast<HumpFlicker<Rgb16<14634,148,29351>,Magenta,50>,Green,200,100,400>,AudioFlicker<OrangeRed,White>,AudioFlicker<Blue,White>>,Cyan,40>,180,800,Pulsing<Red,Rgb16<14634,148,29351>,4000>>>(), "revanpurple"},
 
+//Unstable Pulsing Purple 2
+StylePtr<InOutHelper<LocalizedClash<Lockup<Blast<Pulsing<AudioFlicker<Magenta,Green>,AudioFlicker<Rgb16<14634,148,29351>,LightCyan>,5000>,GreenYellow,200,100,400>,AudioFlicker<Pulsing<Red,Rgb<50,0,0>,5000>,Red>,AudioFlicker<Pulsing<Red,Rgb<50,0,0>,5000>,Red>>,Yellow,65,50>,300,800,Black>>()
