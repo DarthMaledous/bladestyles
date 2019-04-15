@@ -93,3 +93,18 @@ StylePtr<InOutHelper<LocalizedClash<Lockup<Blast<HumpFlicker<Red,Green,150>,Rgb1
 
 // Vader / Sith RedOrange 2
 StylePtr<InOutHelper<SimpleClash<Lockup<Blast<HumpFlicker<Red,DarkOrange,50>,Magenta,200,100,400>,AudioFlicker<Blue,White>,AudioFlicker<Blue,White>>,Rgb16<26168,65535,0>,40>,180,800,Black>>()
+
+
+// Starkiller Unstable 1
+//RED
+StylePtr<InOutHelper<SimpleClash<Lockup<OriginalBlast<HumpFlicker<White,Red,5>,Green>,AudioFlicker<RandomFlicker<GreenYellow,Magenta>,DarkOrange>,AudioFlicker<AudioFlicker<Yellow,White>,White>>,RandomFlicker<Yellow,Blue>,75>,185,800,Black>>()
+
+//ORANGE
+StylePtr<InOutHelper<SimpleClash<Lockup<OriginalBlast<HumpFlicker<White,Orange,5>,Green>,AudioFlicker<RandomFlicker<GreenYellow,Magenta>,DarkOrange>,AudioFlicker<AudioFlicker<Yellow,White>,White>>,RandomFlicker<Yellow,Blue>,75>,185,800,Black>>()
+
+//BLUE\
+StylePtr<InOutHelper<SimpleClash<Lockup<OriginalBlast<HumpFlicker<White,DeepSkyBlue,5>,Orange>,AudioFlicker<RandomFlicker<GreenYellow,Cyan>,DarkOrange>,AudioFlicker<AudioFlicker<Yellow,White>,White>>,RandomFlicker<Cyan,Yellow>,75>,185,800,Black>>()
+
+ // Joe Ren's Localized Lockup
+ //VADER 
+ StylePtr<InOutHelper<LocalizedClash<Lockup<Blast<AudioFlicker<Red,Rgb<120,0,0>>,DeepSkyBlue,200,100,400>,Pulsing<Gradient<AudioFlicker<Red,Rgb<120,0,0>>,AudioFlicker<Red,Rgb<120,0,0>>,BrownNoiseFlicker<White,Strobe<SteelBlue,White,50,1>,100>,AudioFlicker<Red,Rgb<120,0,0>>,AudioFlicker<Red,Rgb<120,0,0>>,AudioFlicker<Red,Rgb<120,0,0>>>,Gradient<AudioFlicker<Red,Rgb<120,0,0>>,AudioFlicker<Red,Rgb<120,0,0>>,BrownNoiseFlicker<White,Strobe<SteelBlue,White,50,1>,100>,AudioFlicker<Red,Rgb<120,0,0>>,AudioFlicker<Red,Rgb<120,0,0>>>,3500>,AudioFlicker<Red,White>>,White,80,50>,800,500,Black>>()
