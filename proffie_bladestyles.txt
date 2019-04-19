@@ -108,3 +108,7 @@ StylePtr<InOutHelper<SimpleClash<Lockup<OriginalBlast<HumpFlicker<White,DeepSkyB
  // Joe Ren's Localized Lockup
  //VADER 
  StylePtr<InOutHelper<LocalizedClash<Lockup<Blast<AudioFlicker<Red,Rgb<120,0,0>>,DeepSkyBlue,200,100,400>,Pulsing<Gradient<AudioFlicker<Red,Rgb<120,0,0>>,AudioFlicker<Red,Rgb<120,0,0>>,BrownNoiseFlicker<White,Strobe<SteelBlue,White,50,1>,100>,AudioFlicker<Red,Rgb<120,0,0>>,AudioFlicker<Red,Rgb<120,0,0>>,AudioFlicker<Red,Rgb<120,0,0>>>,Gradient<AudioFlicker<Red,Rgb<120,0,0>>,AudioFlicker<Red,Rgb<120,0,0>>,BrownNoiseFlicker<White,Strobe<SteelBlue,White,50,1>,100>,AudioFlicker<Red,Rgb<120,0,0>>,AudioFlicker<Red,Rgb<120,0,0>>>,3500>,AudioFlicker<Red,White>>,White,80,50>,800,500,Black>>()
+ 
+ 
+ 
+ StylePtr<InOutHelper<LocalizedClash<Lockup<Blast<AudioFlicker<Rgb<220,0,255>,Rgb<130,0,160>>,White,200,100,400>,Pulsing<Gradient<AudioFlicker<Rgb<220,0,255>,Rgb<130,0,160>>,AudioFlicker<Rgb<220,0,255>,Rgb<130,0,160>>,BrownNoiseFlicker<White,Strobe<Blue,White,50,1>,100>,AudioFlicker<Rgb<220,0,255>,Rgb<130,0,160>>,AudioFlicker<Rgb<220,0,255>,Rgb<130,0,160>>,AudioFlicker<Rgb<220,0,255>,Rgb<130,0,160>>>,Gradient<AudioFlicker<Rgb<220,0,255>,Rgb<130,0,160>>,AudioFlicker<Rgb<220,0,255>,Rgb<130,0,160>>,BrownNoiseFlicker<White,Strobe<Blue,White,50,1>,100>,AudioFlicker<Rgb<220,0,255>,Rgb<130,0,160>>,AudioFlicker<Rgb<220,0,255>,Rgb<130,0,160>>>,3500>>,White,40>,180,500,Black>>()>()
