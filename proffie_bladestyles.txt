@@ -91,3 +91,24 @@ StylePtr<InOutHelper<LocalizedClash<Lockup<Blast<HumpFlicker<Red,Yellow,100>,Rgb
 // Vader / Sith Red_Green HumpFlicker
 StylePtr<InOutHelper<LocalizedClash<Lockup<Blast<HumpFlicker<Red,Green,150>,Rgb16<21301,1899,65535>,200,100,400>,HumpFlicker<Green,Yellow,50>,AudioFlicker<OrangeRed,White>>,Green,60,75>,200,800,Black>>()
 
+// Vader / Sith RedOrange 2
+StylePtr<InOutHelper<SimpleClash<Lockup<Blast<HumpFlicker<Red,DarkOrange,50>,Magenta,200,100,400>,AudioFlicker<Blue,White>,AudioFlicker<Blue,White>>,Rgb16<26168,65535,0>,40>,180,800,Black>>()
+
+
+// Starkiller Unstable 1
+//RED
+StylePtr<InOutHelper<SimpleClash<Lockup<OriginalBlast<HumpFlicker<White,Red,5>,Green>,AudioFlicker<RandomFlicker<GreenYellow,Magenta>,DarkOrange>,AudioFlicker<AudioFlicker<Yellow,White>,White>>,RandomFlicker<Yellow,Blue>,75>,185,800,Black>>()
+
+//ORANGE
+StylePtr<InOutHelper<SimpleClash<Lockup<OriginalBlast<HumpFlicker<White,Orange,5>,Green>,AudioFlicker<RandomFlicker<GreenYellow,Magenta>,DarkOrange>,AudioFlicker<AudioFlicker<Yellow,White>,White>>,RandomFlicker<Yellow,Blue>,75>,185,800,Black>>()
+
+//BLUE\
+StylePtr<InOutHelper<SimpleClash<Lockup<OriginalBlast<HumpFlicker<White,DeepSkyBlue,5>,Orange>,AudioFlicker<RandomFlicker<GreenYellow,Cyan>,DarkOrange>,AudioFlicker<AudioFlicker<Yellow,White>,White>>,RandomFlicker<Cyan,Yellow>,75>,185,800,Black>>()
+
+ // Joe Ren's Localized Lockup
+ //VADER 
+ StylePtr<InOutHelper<LocalizedClash<Lockup<Blast<AudioFlicker<Red,Rgb<120,0,0>>,DeepSkyBlue,200,100,400>,Pulsing<Gradient<AudioFlicker<Red,Rgb<120,0,0>>,AudioFlicker<Red,Rgb<120,0,0>>,BrownNoiseFlicker<White,Strobe<SteelBlue,White,50,1>,100>,AudioFlicker<Red,Rgb<120,0,0>>,AudioFlicker<Red,Rgb<120,0,0>>,AudioFlicker<Red,Rgb<120,0,0>>>,Gradient<AudioFlicker<Red,Rgb<120,0,0>>,AudioFlicker<Red,Rgb<120,0,0>>,BrownNoiseFlicker<White,Strobe<SteelBlue,White,50,1>,100>,AudioFlicker<Red,Rgb<120,0,0>>,AudioFlicker<Red,Rgb<120,0,0>>>,3500>,AudioFlicker<Red,White>>,White,80,50>,800,500,Black>>()
+ 
+ 
+ 
+ StylePtr<InOutHelper<LocalizedClash<Lockup<Blast<AudioFlicker<Rgb<220,0,255>,Rgb<130,0,160>>,White,200,100,400>,Pulsing<Gradient<AudioFlicker<Rgb<220,0,255>,Rgb<130,0,160>>,AudioFlicker<Rgb<220,0,255>,Rgb<130,0,160>>,BrownNoiseFlicker<White,Strobe<Blue,White,50,1>,100>,AudioFlicker<Rgb<220,0,255>,Rgb<130,0,160>>,AudioFlicker<Rgb<220,0,255>,Rgb<130,0,160>>,AudioFlicker<Rgb<220,0,255>,Rgb<130,0,160>>>,Gradient<AudioFlicker<Rgb<220,0,255>,Rgb<130,0,160>>,AudioFlicker<Rgb<220,0,255>,Rgb<130,0,160>>,BrownNoiseFlicker<White,Strobe<Blue,White,50,1>,100>,AudioFlicker<Rgb<220,0,255>,Rgb<130,0,160>>,AudioFlicker<Rgb<220,0,255>,Rgb<130,0,160>>>,3500>>,White,40>,180,500,Black>>()>()
